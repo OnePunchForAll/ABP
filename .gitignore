@@ -1,0 +1,47 @@
+# ABP safety exclusions
+.venv/
+.venv_DISABLED/
+.venv_*/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+node_modules/
+dist/
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.zip
+*.tar
+*.gz
+reports/*.log
+reports/*.tmp# Python cache / build artifacts
+*.py[cod]
+*.class
+.coverage
+htmlcov/
+*.egg-info/
+# Virtual environments
+# Node / frontend cache
+# Local ABP evidence logs; keep baseline reports tracked separately
+reports/manual_test_run_*.txt
+reports/manual_test_run_*.sha256.txt
+reports/ci_test_output_*.txt
+reports/ci_performance_*.json
+reports/ci_summary_*.md
+reports/safe_loop_simulation_report.json
+reports/safe_loop_simulation_report.sha256.txt
+reports/hardening_*.json
+reports/hardening_*.md
+reports/hardening_*.txt
+reports/metric_gauntlet_*.json
+reports/metric_gauntlet_*.md
+reports/metric_gauntlet_*.txt

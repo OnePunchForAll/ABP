@@ -1,0 +1,25 @@
+# Keep AI agents from indexing generated/dependency folders
+.venv/
+.venv_DISABLED/
+.venv_*/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.git/
+node_modules/
+dist/
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.zip
+*.tar
+*.gz

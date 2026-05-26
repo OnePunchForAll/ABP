@@ -1,0 +1,7 @@
+ABP formal scaffold checker
+status=FORMAL_SCAFFOLD_READY
+passed=True
+states_checked=12288
+failures=0
+bounded_model_passed=True
+claim_formally_proven=False

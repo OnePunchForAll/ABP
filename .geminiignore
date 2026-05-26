@@ -1,0 +1,13 @@
+# Gemini / Antigravity context exclusions
+.venv/
+.venv_DISABLED/
+.venv_*/
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+.git/
+node_modules/
+dist/
+build/

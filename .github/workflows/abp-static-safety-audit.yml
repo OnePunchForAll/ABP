@@ -1,0 +1,5 @@
+name: ABP Static Safety Audit
+
+on:
+  workflow_dispatch:
+

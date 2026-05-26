@@ -1,0 +1,26 @@
+{
+  "generated_at_utc": "2026-05-26T04:48:34.569026+00:00",
+  "status": "FORMAL_SCAFFOLD_READY",
+  "passed": true,
+  "claim_formally_proven": false,
+  "tla_exists": true,
+  "cfg_exists": true,
+  "invariants_required": [
+    "TypeOK",
+    "PolicyBlockNeverAllows",
+    "UnsupportedHighConfidenceNeverAllows",
+    "ConflictedClaimRequiresVerifyOrBlock",
+    "ContradictedStateCannotSynthesizeAllow",
+    "IrreversibleWithoutApprovalNeverAllows",
+    "UnreceiptedActionNeverAllows",
+    "UnsafeEnhancementNeverAllows",
+    "AbsoluteUniversalPerfectionNeverAllows"
+  ],
+  "errors": [],
+  "bounded_model": {
+    "states_checked": 12288,
+    "failures": [],
+    "passed": true
+  },
+  "boundary": "Scaffold and bounded model sanity check only; not a complete formal proof."
+}

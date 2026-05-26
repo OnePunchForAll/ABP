@@ -1,0 +1,117 @@
+﻿{
+    "generated_at_utc":  "2026-05-26T03:27:51.5507812Z",
+    "repository":  "OnePunchForAll/ABP",
+    "branch":  "main",
+    "expected_tests_per_run":  183,
+    "workflow_runs":  [
+                          {
+                              "workflow_file":  "abp-ci.yml",
+                              "workflow_name":  "ABP Cross-OS CI",
+                              "run_id":  "26430249031",
+                              "conclusion":  "success",
+                              "url":  "https://github.com/OnePunchForAll/ABP/actions/runs/26430249031",
+                              "created_at":  "2026-05-26T03:18:35Z",
+                              "updated_at":  "2026-05-26T03:19:08Z",
+                              "job_total":  9,
+                              "job_passed":  9,
+                              "job_failed":  0,
+                              "artifact_count":  9
+                          },
+                          {
+                              "workflow_file":  "abp-hardening-gauntlet.yml",
+                              "workflow_name":  "ABP Hardening Gauntlet",
+                              "run_id":  "26430266749",
+                              "conclusion":  "success",
+                              "url":  "https://github.com/OnePunchForAll/ABP/actions/runs/26430266749",
+                              "created_at":  "2026-05-26T03:19:14Z",
+                              "updated_at":  "2026-05-26T03:19:39Z",
+                              "job_total":  9,
+                              "job_passed":  9,
+                              "job_failed":  0,
+                              "artifact_count":  9
+                          },
+                          {
+                              "workflow_file":  "abp-static-safety-audit.yml",
+                              "workflow_name":  "ABP Static Safety Audit",
+                              "run_id":  "26430281698",
+                              "conclusion":  "success",
+                              "url":  "https://github.com/OnePunchForAll/ABP/actions/runs/26430281698",
+                              "created_at":  "2026-05-26T03:19:46Z",
+                              "updated_at":  "2026-05-26T03:19:58Z",
+                              "job_total":  1,
+                              "job_passed":  1,
+                              "job_failed":  0,
+                              "artifact_count":  0
+                          },
+                          {
+                              "workflow_file":  "abp-reproducibility-stress.yml",
+                              "workflow_name":  "ABP Reproducibility Stress",
+                              "run_id":  "26430289809",
+                              "conclusion":  "success",
+                              "url":  "https://github.com/OnePunchForAll/ABP/actions/runs/26430289809",
+                              "created_at":  "2026-05-26T03:20:04Z",
+                              "updated_at":  "2026-05-26T03:20:21Z",
+                              "job_total":  1,
+                              "job_passed":  1,
+                              "job_failed":  0,
+                              "artifact_count":  null
+                          },
+                          {
+                              "workflow_file":  "abp-safe-loop-simulation.yml",
+                              "workflow_name":  "ABP Safe Loop Simulation",
+                              "run_id":  "26430300710",
+                              "conclusion":  "success",
+                              "url":  "https://github.com/OnePunchForAll/ABP/actions/runs/26430300710",
+                              "created_at":  "2026-05-26T03:20:26Z",
+                              "updated_at":  "2026-05-26T03:20:36Z",
+                              "job_total":  1,
+                              "job_passed":  1,
+                              "job_failed":  0,
+                              "artifact_count":  null
+                          },
+                          {
+                              "workflow_file":  "abp-metric-gauntlet.yml",
+                              "workflow_name":  "ABP Metric Gauntlet",
+                              "run_id":  "26430308950",
+                              "conclusion":  "success",
+                              "url":  "https://github.com/OnePunchForAll/ABP/actions/runs/26430308950",
+                              "created_at":  "2026-05-26T03:20:43Z",
+                              "updated_at":  "2026-05-26T03:21:11Z",
+                              "job_total":  9,
+                              "job_passed":  9,
+                              "job_failed":  0,
+                              "artifact_count":  9
+                          }
+                      ],
+    "workflow_run_count":  6,
+    "workflow_success_count":  6,
+    "workflow_success_rate_percent":  100,
+    "job_count":  30,
+    "job_passed":  30,
+    "job_failed":  0,
+    "job_pass_rate_percent":  100,
+    "artifact_counts":  {
+                            "ci_performance_json":  9,
+                            "hardening_report_json":  9,
+                            "metric_gauntlet_json":  9,
+                            "reproducibility_report_json":  1,
+                            "safe_loop_report_json":  1
+                        },
+    "artifact_pass_counts":  {
+                                 "ci_performance_passed":  9,
+                                 "hardening_passed":  9,
+                                 "metric_gauntlet_100_score":  9,
+                                 "reproducibility_passed":  1,
+                                 "safe_loop_passed":  1
+                             },
+    "aggregate_performance":  {
+                                  "metric_gauntlet_mean_suite_seconds_mean":  0.138142,
+                                  "metric_gauntlet_mean_suite_seconds_median":  0.146223,
+                                  "metric_gauntlet_tracemalloc_peak_mb_mean":  0.9494
+                              },
+    "baseline_hashes":  {
+                            "ABP_BASELINE_V1_2_md_sha256":  "690799ED913F4444DD5D36B25D158865D6A1C2C0E8B70E94D07E486B1830D70D",
+                            "scoreboard_md_sha256":  "C35E53E0B5EAAB35004157F0DB1CFE8EDEF0BCFDB067B7CC2250421C9C16FB34"
+                        },
+    "final_status":  "GITHUB_FULL_METRIC_VALIDATED"
+}
